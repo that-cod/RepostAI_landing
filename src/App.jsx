@@ -110,9 +110,13 @@ const App = () => {
 
           <div className="hidden md:flex items-center gap-4">
             <button className="text-sm font-medium text-slate-400 hover:text-white transition-colors">Log in</button>
-            <button className="px-5 py-2.5 rounded-lg bg-white text-slate-950 font-bold text-sm hover:bg-slate-200 transition-colors shadow-lg shadow-white/5">
+            <a
+              href="https://app.repostai.io"
+              className="px-5 py-2.5 rounded-lg bg-white text-slate-950 font-bold text-sm hover:bg-slate-200 transition-colors shadow-lg shadow-white/5"
+              rel="noopener noreferrer"
+            >
               Start Generating
-            </button>
+            </a>
           </div>
 
           <button className="md:hidden p-2 text-slate-300" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
@@ -128,7 +132,13 @@ const App = () => {
                 {item}
               </a>
             ))}
-            <button className="w-full py-3 rounded-lg bg-[#04a45b] text-white font-bold">Get Started</button>
+            <a
+              href="https://app.repostai.io"
+              className="w-full py-3 rounded-lg bg-[#04a45b] text-white font-bold flex items-center justify-center"
+              rel="noopener noreferrer"
+            >
+              Get Started
+            </a>
           </div>
         )}
       </nav>
@@ -156,9 +166,13 @@ const App = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-20">
-              <button className="w-full sm:w-auto px-8 py-4 rounded-xl bg-gradient-to-r from-[#04a45b] to-emerald-600 text-white font-bold hover:shadow-lg hover:shadow-[#04a45b]/25 transition-all transform hover:-translate-y-0.5 flex items-center justify-center gap-2">
+              <a
+                href="https://app.repostai.io"
+                className="w-full sm:w-auto px-8 py-4 rounded-xl bg-gradient-to-r from-[#04a45b] to-emerald-600 text-white font-bold hover:shadow-lg hover:shadow-[#04a45b]/25 transition-all transform hover:-translate-y-0.5 flex items-center justify-center gap-2"
+                rel="noopener noreferrer"
+              >
                 Try Generator Free <ArrowRight className="w-4 h-4" />
-              </button>
+              </a>
               <button className="w-full sm:w-auto px-8 py-4 rounded-xl bg-[#1A1F2E] border border-white/5 text-white font-semibold hover:bg-[#252b3d] transition-colors flex items-center justify-center gap-2">
                 <Play className="w-4 h-4 text-slate-400" /> See How It Works
               </button>
@@ -376,9 +390,13 @@ const App = () => {
                 <li className="flex gap-3"><CheckCircle2 className="w-5 h-5 text-[#04a45b]" /> 5 Post Generations/mo</li>
                 <li className="flex gap-3"><CheckCircle2 className="w-5 h-5 text-[#04a45b]" /> Basic Formatting</li>
               </ul>
-              <button className="w-full py-4 rounded-xl border border-white/10 text-white font-bold hover:bg-white/5 transition-colors">
+              <a
+                href="https://app.repostai.io"
+                className="w-full py-4 rounded-xl border border-white/10 text-white font-bold hover:bg-white/5 transition-colors flex items-center justify-center"
+                rel="noopener noreferrer"
+              >
                 Start Free
-              </button>
+              </a>
             </div>
 
             {/* Pro Plan Block */}
@@ -392,9 +410,13 @@ const App = () => {
                 <li className="flex gap-3"><CheckCircle2 className="w-5 h-5 text-[#04a45b]" /> Premium Templates</li>
                 <li className="flex gap-3"><CheckCircle2 className="w-5 h-5 text-[#04a45b]" /> Priority Support</li>
               </ul>
-              <button className="w-full py-4 rounded-xl bg-[#04a45b] text-white font-bold hover:bg-[#03854a] transition-colors shadow-lg shadow-[#04a45b]/20">
+              <a
+                href="https://app.repostai.io"
+                className="w-full py-4 rounded-xl bg-[#04a45b] text-white font-bold hover:bg-[#03854a] transition-colors shadow-lg shadow-[#04a45b]/20 flex items-center justify-center"
+                rel="noopener noreferrer"
+              >
                 Get Pro Access
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -410,9 +432,13 @@ const App = () => {
             <p className="text-slate-400 text-lg mb-10 max-w-xl mx-auto">
               Join the new wave of creators using Repost AI to generate content in seconds.
             </p>
-            <button className="px-10 py-4 rounded-xl bg-white text-slate-950 font-bold text-lg hover:bg-slate-100 transition-transform hover:scale-105 shadow-xl">
+            <a
+              href="https://app.repostai.io"
+              className="px-10 py-4 rounded-xl bg-white text-slate-950 font-bold text-lg hover:bg-slate-100 transition-transform hover:scale-105 shadow-xl inline-block"
+              rel="noopener noreferrer"
+            >
               Get Started for Free
-            </button>
+            </a>
           </div>
         </div>
       </section>
